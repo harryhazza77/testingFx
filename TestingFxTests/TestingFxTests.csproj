@@ -73,7 +73,7 @@
     <Compile Include="NunitExamples.cs" />
     <Compile Include="DebuggerShim.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="When_comparing_booleans.cs" />
+    <Compile Include="MspecExample.cs" />
     <Compile Include="XbehaveExamples.cs" />
     <Compile Include="XunitExamples.cs" />
   </ItemGroup>
