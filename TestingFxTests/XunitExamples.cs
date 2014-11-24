@@ -1,4 +1,5 @@
 ﻿using System;
+using FluentAssertions;
 using Xunit;
 
 namespace TestingFxTests
@@ -22,6 +23,19 @@ namespace TestingFxTests
         public void NormalAssert()
         {
             Assert.Equal(true, _actual);
+        }
+
+        [Fact]
+        public void ExceptionTypeAndMessageFluent()
+        {
+            Action act = () => { throw new ApplicationException("xunit"); };
+            act.ShouldThrow<ApplicationException>().WithMessage("xunit");
+        }
+
+        [Fact]
+        public void NormalAssertFluent()
+        {
+            _actual.Should().BeTrue();
         }
     }
 }
