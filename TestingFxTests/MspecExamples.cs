@@ -3,7 +3,7 @@
 namespace TestingFxTests
 {
     [Subject("Mspec")]
-    public class MspecExample
+    public class MspecExamples
     {
         private static bool Subject;
         private Establish context = () =>  Subject = false;
