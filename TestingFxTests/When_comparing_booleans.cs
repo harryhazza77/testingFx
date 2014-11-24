@@ -2,8 +2,8 @@
 
 namespace TestingFxTests
 {
-    [Subject("Booleans")]
-    public class When_comparing_booleans
+    [Subject("Mspec")]
+    public class MspecExample
     {
         private static bool Subject;
         private Establish context = () =>  Subject = false;
