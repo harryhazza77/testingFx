@@ -1,4 +1,4 @@
-TestingFx (Testing framworks)
+TestingFx (Testing frameworks)
 =============================
 
 This project brings together popular testing frameworks and runs the same contrived/trivial examples using them.
@@ -14,3 +14,5 @@ xbehave	| yes					| no						| yes		|
 nspec	| no					| yes						| no		|
 
 mspec	| yes					| yes						| yes		|
+
+specflow| no					| yes						| ?			|
